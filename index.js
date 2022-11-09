@@ -72,6 +72,10 @@ app.get("/", (req, res) => {
   console.log('Get Request');
   res.send("Express on vercel!");
 })
+app.get("/test", (req, res) => {
+  console.log('Get Request');
+  res.send("Express on vercel test!");
+})
 
 // Initialize server
 app.listen(5000, () => {
