@@ -69,7 +69,8 @@ const app = express()
 
 // Create GET request
 app.get("/", (req, res) => {
-  res.send("Express on vercel!")
+  console.log('Get Request');
+  res.send("Express on vercel!");
 })
 
 // Initialize server
