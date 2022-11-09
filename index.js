@@ -60,8 +60,8 @@ async function tweet(type) {
   
 }
 
-setInterval( function() { tweet(2); }, 60000 );
-setInterval( function() { tweet(1); }, 30000 );
+//setInterval( function() { tweet(2); }, 60000 );
+//setInterval( function() { tweet(1); }, 30000 );
 setInterval( function() { console.log('Funciona' )}, 1000 );
 
 // Initialize Express
